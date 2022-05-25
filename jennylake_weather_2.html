@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+
+<html lang="en"><head>
     <meta charset="utf-8">
     <title>Jenny Lake Weather</title>
 <style>
@@ -12,9 +12,9 @@ body {
   margin: 0px;
 }
 div#background{
-    width: 1160px;
-    height: 255px;
-    transform: scale(2.0);
+    width: 1005px;
+    height: 94px;
+    transform: scale(3.8);
 transform-origin: top left;   }
 
 div#line{
@@ -23,7 +23,7 @@ div#line{
     background-color: white;
     }
 </style>   
-<script src="script.js"></script>
+<script id="weatherwidget-io-js" src="https://weatherwidget.io/js/widget.min.js"></script><script src="script.js"></script>
   </head>
   <body>
   <div id="line">
@@ -32,11 +32,12 @@ div#line{
  
     <div id="background">
 
-    <a class="weatherwidget-io" href="https://forecast7.com/en/43d76n110d71/jenny-lake/?unit=us" data-label_1="Jenny Lake" data-label_2="Grand Teton National Park" data-days="5" data-theme="dark" >Jenny Lake Grand Teton National Park</a>
+    <a class="weatherwidget-io" href="https://forecast7.com/en/43d76n110d71/jenny-lake/?unit=us" data-label_1="Jenny Lake" data-label_2="Grand Teton National Park" data-days="5" data-theme="dark" style="display: block; position: relative; height: 92px; padding: 0px; overflow: hidden; text-align: left;">Jenny Lake Grand Teton National Park<iframe id="weatherwidget-io-0" class="weatherwidget-io-frame" title="Weather Widget" scrolling="no" frameborder="0" width="100%" src="https://weatherwidget.io/w/" style="display: block; position: absolute; top: 0px; height: 93px;"></iframe></a>
 <script>
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
 </script></div>
 <!-- page content -->
-  </body>
-</html>
+  
 
+
+</body></html>
